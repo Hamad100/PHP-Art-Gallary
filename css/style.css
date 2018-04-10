@@ -1,0 +1,791 @@
+body{
+    display:none;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+.home{
+    width: 100%;
+    min-height: 680px;
+    background-image: url("../images/bg_main_unedited.jpg");
+    background-position: center right;
+    background-size: cover;
+}
+.contact-banner{
+    width: 100%;
+    min-height: 250px;
+    background-image: url("../images/map5.gif");
+    background-position: center center;
+    background-size: cover;
+}
+.artdetail-banner{
+    width: 100%;
+    min-height: 450px;
+    background-image: url("../images/brush-to-canvas.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+.category-banner{
+    width: 100%;
+    min-height: 450px;
+    background-image: url("../images/maxresdefault.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+.profile-banner{
+    width: 100%;
+    min-height: 450px;
+    background-image: url("../images/maxresdefault.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+.profile{
+    min-height: 500px;
+    
+}
+.cart-banner{
+    width: 100%;
+    min-height: 450px;
+    background-image: url("../images/b.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+/*.contact-banner{
+    width: 100%;
+    min-height: 450px;
+    background-image: url("../images/brush-to-canvas.jpg");
+    background-position: center center;
+    background-size: cover;
+}*/
+.contact-banner .home-col-1, .artdetail-banner .home-col-1, .category-banner .home-col-1{
+    padding-top: 180px;
+}
+
+
+/*.navFake1, .contact{
+    min-height: 450px;
+    width: 100%;
+    background: #fff;
+    text-align: center;
+    box-shadow: 0.01px 0.01px 0.01px gray;
+}*/
+.navFake1 h1 + p{
+    margin-bottom: 20px;
+} 
+
+.contact{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+.contact label, .modal label{
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.contact2{
+    box-shadow: 0.01px 0.01px 0.01px gray;
+}
+.navFake1 .col-sm-12{
+    padding-top: 100px;
+    padding-bottom: 138px;
+}
+.navFake1 h1, .contact h1{
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 5px;
+    line-height: 35px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.navFake1 p{
+    font-family: "Inconsolata", sans-serif;
+    font-size: 16.5px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 11px;
+    line-height: 25px;
+    
+    
+}
+.navFake{
+    min-height: 200px;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0.5px 0.5px 2px grey;
+}
+.navFake .col-sm-12{
+    background-color: #fff;
+    min-height: 50px;
+}
+.navFake .row, .navFake .col-sm-12{
+    min-height: inherit;
+}
+.navFake .col-sm-12{
+    padding-top: 75px;
+    padding-bottom: 65px;
+}
+.transit{
+    width: 100%;
+    min-height: 500px;
+}
+.skillSec{
+    min-height: 500px;
+    width: 100%;
+    box-shadow: 1px 1px 2px red;
+}
+.exp{
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+}
+input, textarea{
+    float: right;   
+}
+textarea{
+    margin-right: 10px;
+}
+input{
+    margin-right: 80px; 
+}
+
+.skillSec p{
+    padding-top: 60px;
+}
+
+.about{
+    width: 100%;
+    min-height: 550px;
+    padding-bottom: 60px;
+    box-shadow: 0.5px 0.5px 2px grey;
+    
+}
+.about h2{
+    margin: 0;
+}
+
+.home-col-1{
+    color: #fff;
+    padding-top: 260px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 0.2em;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 50px;
+}
+.home-col-2{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-family: "Inconsolata", sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.2em;
+    color: white;
+    line-height: 30px;
+}
+.skills-col-1 {
+    padding-top: 210px;
+}
+.admin .skills-col-1, .manage .skills-col-1{
+    padding-top: 50px;
+}
+
+.col-one{
+    min-height: 550px;
+    background-image: url("../images/about.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+.col-two{
+    min-height: 550px;
+    background-image: url("../images/aboutbgright.jpg");
+    background-size: cover;
+}
+
+@media (max-width: 480px){
+    .col-two{
+        padding-right: 40px;
+    }
+}
+.col-two h2{
+    padding-top: 80px;
+    padding-left: 30px;
+}
+
+.col-two p{
+    padding-bottom: 70px;
+    padding-left: 30px;
+}
+
+
+.navbar-brand{
+/*    font-family: "Montserrat", sans-serif;*/
+    font-family: "Comic Sans MS";
+    letter-spacing: 3px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px; 
+    
+
+    }
+@media (max-width: 768px) {
+    .navbar-brand{
+        letter-spacing: 1.5px;
+        font-weight: 600;
+    }
+}
+
+nav{
+    height: 60px;
+}
+.navbar-custom {
+    border-radius: 0;
+    font-family: "Inconsolata", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 11px;
+    transition: all .5s ease-in-out;
+    margin-bottom: 20px;  
+    padding-top: 15px;
+    padding-bottom: 15px;
+    height: 81px;
+}
+.dropdown-menu li a[href]{
+    font-family: "Inconsolata", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 11px;
+}
+
+.navbar-collapse ul li a[href]:focus{
+    background: none;
+    border-bottom: 3px solid orangered;
+    outline: 0;
+}
+
+
+/*new stuff*/
+@media(max-width: 768px){
+    .navbar{
+        background: #fff;
+        height: 55px;    
+        margin-top: 0;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        box-shadow: 0.5px 0.5px 2px grey;
+    }
+    .navbar .dropdown{
+        background: #fff;
+    }
+    .navbar-nav .dropdown a, .navbar a{
+        color: #000;
+    }
+    .fa-shopping-cart{
+        color: #000;
+        font-size: 18px;
+    }
+    nav{
+        background: blue;
+    }
+    .navbar-nav .dropdown{
+        border-bottom: 1px solid #E3E7E8;
+    }
+    .nav:first-child{
+        border-top: 1px solid #E3E7E8;
+    }
+    .navbar-brand:hover {
+    color: orangered;
+    } 
+}
+
+
+/*new stuff*/
+@media(min-width: 769px){
+    .navbar{
+        background: transparent;
+        color: #fff;
+        
+    }
+    .navbar .dropdown{
+        background: transparent;
+        color: #fff;
+    }
+    .navbar-nav .dropdown a, .navbar a{
+        color: #fff;
+    }
+    
+    .fa-shopping-cart{
+        text-align: left;
+        font-size: 18px;
+        color: #fff;
+    }
+    .navbar-nav .dropdown{
+        border-bottom: none;
+    }
+    .navbar-brand:hover {
+    color: orangered;
+    }
+}
+.navbar-toggle .icon-bar{
+        background-color: grey;
+    }
+.newColor{
+    background-color: #fff;
+    color: #000;
+    height: 55px;
+    margin-top: 0;
+    padding-top: 4px;
+    padding-bottom: 4px;    
+}
+.nav li a:hover{
+    background: none;
+    color: orangered;
+}
+/*.nav li a:active{
+    color: greenyellow;
+}*/
+.fa-shopping-cart:hover{
+    background: none;
+    color: orangered;
+}
+.cart a[href]{
+    padding-bottom: 14px;
+}
+
+
+nav .container{
+    margin: 0;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+.navbar-header{
+    padding-left: 70px;
+}
+@media(max-width: 800px){
+    .navbar-header{
+    padding-left: 20px;
+    }
+    .cart{
+    padding-right: 20px; 
+    }
+}
+.cart{
+    padding-right: 70px;
+}
+
+.navbar-nav{
+    padding-left: 10px;
+    padding-right: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-toggle{
+    margin-right: 30px;   
+}
+
+
+label, input, textarea, .skill .btn{
+    float: left;
+    margin: 10px;
+}
+iframe{
+    margin: 20px;
+    border: 5px solid #f2f2f2;
+}
+.two{
+    height: 250px; 
+    padding: 0;
+}
+.two img{
+    height: 250px;
+    width: 100%;
+}
+.two, .one{
+    overflow: hidden;
+}
+
+    
+.transit .container-fluid{
+    margin: 0;
+    width: 100%;
+}
+ 
+  
+@media(min-width: 768px)
+{
+    .navbar-collapse{
+    box-shadow: none;
+      }
+    .navbar-nav .dropdown {
+        box-shadow: none;
+    }  
+}
+
+.foot .col-sm-4 {
+    text-align: center;
+    padding: 10px; 
+}
+
+.image a i:hover{
+    color: orangered;
+}
+
+.about .image{
+    text-align: center;
+    height: 20px;
+}
+.about .btn{
+    margin: 5px;
+}
+
+.fa-mobile, .fa-envelope-o, .fa-home, .fa-facebook-square, .fa-twitter-square, .fa-instagram{
+    font-size: 35px;
+    padding: 20px;
+    color: gray;
+    
+}
+
+
+.phoneNum{
+    padding-top: 22px;
+    font-family: "Inconsolata", sans-serif;
+    letter-spacing: 2px;
+    color: gray;
+}
+.foot{
+    min-height: 200px;
+    background: #323333;
+}
+.foot p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0;
+    color: grey;
+}
+.foot .col-sm-12{
+    padding: 10px;
+    text-align: center;
+}
+.skillSec h1{
+    font-family: "Inconsolata", sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+.form-control, .contact input, .contact textarea{
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+
+.contact h1{
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+.contact .col-sm-12{
+    margin-bottom: 20px;
+}
+.contact{
+    color: #fff;
+    background-image: url(../images/map5.gif);
+    background-position: center center;
+    background-size: cover;
+}
+.fa-cog, .fa-html5, .fa-css3{
+    font-size: 80px;
+    color: lightgrey;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.navFake1 li{
+    list-style-type: none;
+}
+.one{
+    height: 400px; 
+/*    background-color: lightgoldenrodyellow;*/
+    /*background-image: url(../images/bcard6.jpg);
+    background-position: center center;
+    background-size: cover;*/
+    padding: 0;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.test{
+    padding: 20px;
+}
+.one img{
+    height: 400px;
+    width: 100%;
+}
+
+.cap, .cap1{
+    height: 50px;
+    text-align: center;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+
+.cap1 h1{
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 35px;
+    font-size: 25px;
+    font-weight: 400;
+    color: orangered;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+.cap h2, .cap1 h2{
+    font-family: "Inconsolata", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 13px;
+    line-height: 25px;    
+}
+
+/*artdetail page css*/
+
+.comment, .delete{
+     margin-left: 55px;
+    margin-bottom: 10px;
+ }
+.delete{
+    width: 100%;
+    text-align: left;
+}
+.comment p{
+    padding-right:55px;
+}
+#comment{
+    margin-top: 0;
+}
+ .com .col-sm-6{
+     margin-bottom: 0px;
+     padding-bottom: 20px;
+ }
+.com p, .img{
+    margin-bottom: 0;
+}
+.com .col-sm-12{
+    padding-left: 0;
+    padding-right: 0;
+}
+.commentbox{
+    //border: 1px solid red;
+}
+.com img{
+    margin-bottom: 10px;
+ }
+ .commenter{
+     margin-left: 10px;
+ }
+.artdetail{
+    padding-top:60px;
+    padding-bottom:60px;
+}
+
+.artdetail .col-sm-6{
+    margin-bottom:40px;
+}
+.artdesc{
+    padding: 20px;;
+}
+.artdesc h1{
+    margin-top: 0;
+}
+.artdetail a{
+    outline: 0;
+}
+.category .col-md-4, .category .col-sm-6, .category .col-sm-12{
+    padding-top:60px;
+    padding-bottom:60px;
+}
+.category p{
+    margin-top: 20px;
+}
+.category .row{
+    min-height: 500px;
+}
+
+/*modal popup*/
+.dialog1 {
+  transform: translate(0, 20%) !important;
+}
+
+.modal-footer{
+    clear: both;
+}
+.btn-warning{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.modal label{
+    margin: 0;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+/*image zoom*/
+#myModal .modal-body{
+     padding: 0;
+ }
+.modal-body img{
+    padding: 0;
+}
+#myregister .modal-dialog{
+    margin-top: 10px;
+}
+
+.artdetail #myModal{
+   background: #000000;
+}
+.artdetail #myModal .close{
+     margin: 20px;
+     color: orangered;
+     opacity: 1;
+}
+/*.close:hover{
+    color: #FFFFFF;
+}*/
+.mycart{
+    min-height: 500px;
+}
+
+/*back to top button */
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display:none;
+}
+.dropdown:hover .dropdown-menu {
+display: block;
+}
+/*admi login page*/
+
+.admin{
+    background: #323333;
+    min-height: 100%;
+}
+.admin .form{
+    padding-bottom: 200px;
+}
+.manage .form{
+    padding-bottom: 200px;
+}
+.manage{
+    min-height: 100px;
+    padding: 0px;
+}
+.manage2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.manage2 a{
+    margin-left: 20px;
+}
+.manage .relative{
+    box-shadow: 0.01px 0.01px 0.01px gray;
+    background: #323333; 
+}
+.admin label{
+    color: #fff;
+    margin-left: 0;
+}
+.admin .col-sm-6 h2, .admin .col-sm-12 p{
+     color: #fff;
+    text-align: center;
+}
+.admin a, .manage a{
+    color: #fff;
+}
+.manage label{
+    margin-left: 0;
+}
+.manage .row{
+    margin: 0;
+}
+.admin input, .manage input{
+    margin-left: 0;
+}
+
+.admin .skills-col-1, .manage .skills-col-1{
+    font-family: "Comic Sans MS";
+    font-weight: 600;
+    font-size: 30px;
+    color: orangered;
+}
+
+.admin .form-check-input, .manage .form-check-input{
+    margin-right: 10px;
+}
+.adminlogout{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.category .row .col-md-4, .category .row .col-sm-6, .category .row .col-sm-12{
+    min-height: 350px;
+    min-width: 350px;
+}
+.category img{
+    height: 380px;
+    width: 350px;
+}
+.artdetail .img-responsive{
+    min-height: 450px;
+    min-width: 400px;
+}
+
+.mycart{
+    padding-top: 50px;
+}
+.form{
+    padding-top: 50px;
+    text-align: center;
+}
+.form-group .error{
+    color: orangered;
+    margin: 0;
+}
+.contact h4{
+    color: greenyellow;
+    text-align: center;
+}
+.form .form-group .error{
+    color: red;
+    text-align: left;
+}
+#myregister .modal-body .form-group{
+    margin-bottom: 0;
+}
+
+#myregister .modal-body{
+    padding-top: 0;
+}
+#myregister .modal-body input{
+    margin-top: 0;
+}
+#myregister .modal-body label{
+    margin-bottom: 0;
+}
+#myregister .modal-header, #myregister .modal-footer{
+    padding-bottom: 5px;
+    padding-bottom: 5px;
+}
+#myregister .modal-body button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.profile .form-group label{
+    margin-left: 0;
+}
